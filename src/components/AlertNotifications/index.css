@@ -1,0 +1,74 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.success-icon {
+  color: #2dca73;
+}
+
+.danger-icon {
+  color: #ff0b37;
+}
+
+.warning-icon {
+  color: #ffb800;
+}
+
+.info-icon {
+  color: #0f81e0;
+}
+
+.message-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.desc {
+  margin-left: 30px;
+}
+
+.msg-text {
+  color: #475569;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text-success {
+  color: #2dca73;
+}
+
+.text-error {
+  color: #ff0b37;
+}
+
+.text-info {
+  color: #0f81e0;
+}
+
+.text-warning {
+  color: #ffb800;
+}
+
+.close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
